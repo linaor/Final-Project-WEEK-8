@@ -1,26 +1,25 @@
 body {
-  background-color: #766897;
-  font-family: "Roboto", sans-serif;
+  background-image: url("img.jpg");
+  background-size: cover;
+  background-color: #8ed0ee;
+  font-family: "Monserrat", sans-serif;
 }
-
 a {
   color: #4e95f3;
 }
-
 .weather-app {
-  background: white;
+  background: rgba(255, 255, 255, 0.829);
   max-width: 600px;
   margin: 45px auto;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  box-shadow: 35px 35px 70px #d8cbe4, -35px -35px 70px #ffffff;
+
   border-radius: 16px;
   padding: 30px;
 }
-
 header {
   border-bottom: 1px solid #f9f7fe;
   padding: 0 0 30px 0;
 }
-
 .search-form-input {
   background-color: #f9f7fe;
   border: none;
@@ -29,9 +28,8 @@ header {
   font-size: 16px;
   padding: 15px 20px;
 }
-
 .search-form-button {
-  background: #d10575;
+  background: #0784eb;
   padding: 15px 30px;
   border: none;
   font-size: 16px;
@@ -39,59 +37,48 @@ header {
   border-radius: 6px;
   color: white;
 }
-
 main {
   padding: 30px 0;
 }
-
 .weather-app-data {
   display: flex;
   justify-content: space-between;
 }
-
 .weather-app-city {
   margin: 0;
   font-size: 38px;
   line-height: 48px;
 }
-
 .weather-app-details {
   font-size: 16px;
   color: rgba(39, 33, 66, 0.4);
   line-height: 24px;
   font-weight: 500;
 }
-
 .weather-app-details strong {
   color: #94012d;
 }
-
 .weather-app-temperature-container {
   display: flex;
 }
-
 .weather-app-icon {
   width: 88px;
   height: 88px;
 }
-
 .weather-app-temperature {
   font-size: 88px;
   line-height: 88px;
   font-weight: bold;
 }
-
 .weatehr-app-unit {
   margin-top: 6px;
   font-size: 28px;
 }
-
 .weather-forecast {
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
 }
-
 .weather-forecast-date {
   text-align: center;
   color: rgba(39, 33, 66, 0.4);
@@ -99,7 +86,6 @@ main {
   line-height: 20px;
   margin-bottom: 10px;
 }
-
 .weather-forecast-icon {
   width: 90px;
   height: 90px;
@@ -113,11 +99,9 @@ main {
   display: flex;
   justify-content: center;
 }
-
 .weather-forecast-temperature {
   padding: 0 10px;
 }
-
 footer {
   border-top: 1px solid #f9f7fe;
   padding: 30px 0 0 0;
